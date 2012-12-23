@@ -7,7 +7,7 @@ Laravel Bundle: Dribbble API Wrapper
 
 ### Artisan
 ```php
-Not yet available
+php artisan bundle:install dribbble
 ```
 ### Manually
 Creating the folder "dribbble" in your "bundles" and paste files from this Github repository: 
