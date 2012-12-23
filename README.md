@@ -1,18 +1,18 @@
-Laravel-Dribbble
-================
+
+# Laravel-Dribbble
 
 Laravel Bundle: Dribbble API Wrapper
 ------------------------------------
 
-# Dribbble API Bundle
-
 ## Installation
+
 ### Artisan
 ```php
 Not yet available
 ```
 ### Manually
 Creating the folder "dribbble" in your "bundles" and paste files from this Github repository: 
+
 ```https://github.com/ariok/Laravel-Dribbble```
 
 ## Bundle Registration
@@ -28,10 +28,15 @@ Add the following code to your **application/bundles.php** file:
 ### Static 
 You can access every Dribbble API service by static calls: 
 
-```Dribbble::shots("jumpzero");```
+```php 
+Dribbble::shots("jumpzero");
+```
 
 **With Pagination**
- ```Dribbble:shots("jumpzero",3,20) //Get shots by Jumpzero, starting from page 3 and displaying 20 results per page```
+
+ ```php 
+ Dribbble:shots("jumpzero",3,20) //Get shots by Jumpzero, starting from page 3 and displaying 20 results per page
+ ```
 
 ### By URL
 Or by your website URL 
@@ -39,7 +44,9 @@ Or by your website URL
 ```http://yoursite.com/dribbble/shots/jumpzero```
 
 **With Pagination**
-```http://yoursite.com/dribbble/shots/jumpzero/3/20```
+```
+http://yoursite.com/dribbble/shots/jumpzero/3/20
+```
 
 You can block direct-URL-call by deleting the routing rule in 
 **bundles/dribbble/routes.php**. 
