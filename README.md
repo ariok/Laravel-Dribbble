@@ -108,7 +108,7 @@ Dribbble::playersFollowing(:id);
 
 **/players/:id/draftees**
 ```php 
-Dribbble::playersdraftees(:id);
+Dribbble::playersDraftees(:id);
 ```
 
 
