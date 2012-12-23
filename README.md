@@ -13,7 +13,9 @@ Not yet available
 ### Manually
 Creating the folder "dribbble" in your "bundles" and paste files from this Github repository: 
 
-```https://github.com/ariok/Laravel-Dribbble```
+```php 
+https://github.com/ariok/Laravel-Dribbble
+```
 
 ## Bundle Registration
 
@@ -41,7 +43,9 @@ Dribbble::shots("jumpzero");
 ### By URL
 Or by your website URL 
 
-```http://yoursite.com/dribbble/shots/jumpzero```
+```php
+http://yoursite.com/dribbble/shots/jumpzero
+```
 
 **With Pagination**
 ```
