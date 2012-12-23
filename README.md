@@ -1,4 +1,3 @@
-
 # Laravel-Dribbble
 
 Laravel Bundle: Dribbble API Wrapper
@@ -55,7 +54,7 @@ http://yoursite.com/dribbble/shots/jumpzero/3/20
 You can block direct-URL-call by deleting the routing rule in 
 **bundles/dribbble/routes.php**. 
 
-## Method list
+## Methods list
 For more information about the methods you can check the [Official Dribbble API Documentation](http://api.dribbble.com ) 
 
 **/shots/:id**
